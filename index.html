@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Naval Battle</title>
+</head>
+<body>
+  <header class="tittle">
+    <h1>Naval Battle</h1>
+  </header>
+  <section class="play_section">
+    <div class="offline">
+        <h3>
+          Play Offline with a bot
+        </h3>
+        <form action="html/bot.html" method="get">
+          <img id="offline_ship_image" src="assets/image.png" alt="ship_to_offline"><br>
+          <button type="submit" class="button">Play now</button>
+        </form>
+    </div>
+    <div class="online">
+      <h3>
+        Play Online with a friend
+      </h3>
+      <form action="bot.php">
+        <img id="online_ship_image" src="assets/ship_solo.png" alt="ship_to_online"><br>
+        <button type="submit" class="button">Get in line</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

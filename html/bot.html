@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Naval Battle </title> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <section class="bot_game">
+            <div class="ally_ships">
+                <img src="../assets/n1.png" alt="ship 1" class="draggable" id="s1">
+                <img src="../assets/n2.png" alt="ship 2" class="draggable" id="s2">
+                <img src="../assets/n3.png" alt="ship 3" class="draggable" id="s3">
+                <img src="../assets/n4.png" alt="ship 4" class="draggable" id="s4">
+                <img src="../assets/n5.png" alt="ship 5" class="draggable" id="s5">
+            </div>
+            <div class="ships">
+            <h3> Yours ships</h3>
+                <div class="matrix_ally">
+                    <div id="d1" class="matrix-cell">1</div><div id="d2" class="matrix-cell">2</div><div id="d3" class="matrix-cell">3</div><div id="d4" class="matrix-cell">4</div><div id="d5" class="matrix-cell">5</div><div id="d6" class="matrix-cell">6</div><div id="d7" class="matrix-cell">7</div><div id="d8" class="matrix-cell">8</div>
+                    <div id="d9" class="matrix-cell">9</div><div id="d10" class="matrix-cell">10</div><div id="d11" class="matrix-cell">11</div><div id="d12" class="matrix-cell">12</div><div id="d13" class="matrix-cell">13</div><div id="d14" class="matrix-cell">14</div><div id="d15" class="matrix-cell">15</div><div id="d16" class="matrix-cell">16</div>
+                    <div id="d17" class="matrix-cell">17</div><div id="d18" class="matrix-cell">18</div><div id="d19" class="matrix-cell">19</div><div id="d20" class="matrix-cell">20</div><div id="d21" class="matrix-cell">21</div><div id="d22" class="matrix-cell">22</div><div id="d23" class="matrix-cell">23</div><div id="d24" class="matrix-cell">24</div>
+                    <div id="d25" class="matrix-cell">25</div><div id="d26" class="matrix-cell">26</div><div id="d27" class="matrix-cell">27</div><div id="d28" class="matrix-cell">28</div><div id="d29" class="matrix-cell">29</div><div id="d30" class="matrix-cell">30</div><div id="d31" class="matrix-cell">31</div><div id="d32" class="matrix-cell">32</div>
+                    <div id="d33" class="matrix-cell">33</div><div id="d34" class="matrix-cell">34</div><div id="d35" class="matrix-cell">35</div><div id="d36" class="matrix-cell">36</div><div id="d37" class="matrix-cell">37</div><div id="d38" class="matrix-cell">38</div><div id="d39" class="matrix-cell">39</div><div id="d40" class="matrix-cell">40</div>
+                    <div id="d41" class="matrix-cell">41</div><div id="d42" class="matrix-cell">42</div><div id="d43" class="matrix-cell">43</div><div id="d44" class="matrix-cell">44</div><div id="d45" class="matrix-cell">45</div><div id="d46" class="matrix-cell">46</div><div id="d47" class="matrix-cell">47</div><div id="d48" class="matrix-cell">48</div>
+                    <div id="d49" class="matrix-cell">49</div><div id="d50" class="matrix-cell">50</div><div id="d51" class="matrix-cell">51</div><div id="d52" class="matrix-cell">52</div><div id="d53" class="matrix-cell">53</div><div id="d54" class="matrix-cell">54</div><div id="d55" class="matrix-cell">55</div><div id="d56" class="matrix-cell">56</div>
+                    <div id="d57" class="matrix-cell">57</div><div id="d58" class="matrix-cell">58</div><div id="d59" class="matrix-cell">59</div><div id="d60" class="matrix-cell">60</div><div id="d61" class="matrix-cell">61</div><div id="d62" class="matrix-cell">62</div><div id="d63" class="matrix-cell">63</div><div id="d64" class="matrix-cell">64</div>
+                </div>
+            </div>
+                <div class="ships">
+                    <h3> Enemy's ships</h3>
+                    <div class="matrix_enemy">
+                        <div id="e1">1</div><div id="e2">2</div><div id="e3">3</div><div id="e4">4</div><div id="e5">5</div><div id="e6">6</div><div id="e7">7</div><div id="e8">8</div>
+                        <div id="e9">9</div><div id="e10">10</div><div id="e11">11</div><div id="e12">12</div><div id="e13">13</div><div id="e14">14</div><div id="e15">15</div><div id="e16">16</div>
+                        <div id="e17">17</div><div id="e18">18</div><div id="e19">19</div><div id="e20">20</div><div id="e21">21</div><div id="e22">22</div><div id="e23">23</div><div id="e24">24</div>
+                        <div id="e25">25</div><div id="e26">26</div><div id="e27">27</div><div id="e28">28</div><div id="e29">29</div><div id="e30">30</div><div id="e31">31</div><div id="e32">32</div>
+                        <div id="e33">33</div><div id="e34">34</div><div id="e35">35</div><div id="e36">36</div><div id="e37">37</div><div id="e38">38</div><div id="e39">39</div><div id="e40">40</div>
+                        <div id="e41">41</div><div id="e42">42</div><div id="e43">43</div><div id="e44">44</div><div id="e45">45</div><div id="e46">46</div><div id="e47">47</div><div id="e48">48</div>
+                        <div id="e49">49</div><div id="e50">50</div><div id="e51">51</div><div id="e52">52</div><div id="e53">53</div><div id="e54">54</div><div id="e55">55</div><div id="e56">56</div>
+                        <div id="e57">57</div><div id="e58">58</div><div id="e59">59</div><div id="e60">60</div><div id="e61">61</div><div id="e62">62</div><div id="e63">63</div><div id="e64">64</div>
+                    </div>
+                </div>
+            <div class="ally_ships">
+                <img src="../assets/n1.png" alt="ship 1"  id="s1">
+                <img src="../assets/n2.png" alt="ship 2"  id="s2">
+                <img src="../assets/n3.png" alt="ship 3"  id="s3">
+                <img src="../assets/n4.png" alt="ship 4"  id="s4">
+                <img src="../assets/n5.png" alt="ship 5"  id="s5">
+            </div>
+        </section>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                const images = document.querySelectorAll('.draggable');
+                let clone = null;
+            
+                images.forEach(image => {
+                    image.addEventListener('mousedown', (event) => {
+                        // Remove o clone existente, se houver
+                        if (clone) {
+                            clone.remove();
+                            clone = null;
+                        }
+            
+                        clone = image.cloneNode(true);
+                        clone.classList.add('clone');
+                        document.body.appendChild(clone);
+                        moveAt(event.pageX, event.pageY);
+            
+                        function moveAt(pageX, pageY) {
+                            clone.style.left = pageX - clone.offsetWidth / 2 + 'px';
+                            clone.style.top = pageY - clone.offsetHeight / 2 + 'px';
+                        }
+            
+                        function onMouseMove(event) {
+                            moveAt(event.pageX, event.pageY);
+                        }
+            
+                        document.addEventListener('mousemove', onMouseMove);
+            
+                        document.addEventListener('mouseup', function onMouseUp(event) {
+                            document.removeEventListener('mousemove', onMouseMove);
+                            document.removeEventListener('mouseup', onMouseUp);
+            
+                            // Verifica se a imagem clonada foi solta sobre uma das divs da matriz
+                            const matrixCells = document.querySelectorAll('div.matrix-cell');
+                            let dropped = false;
+                            matrixCells.forEach(cell => {
+                                const rect = cell.getBoundingClientRect();
+                                if (event.clientX >= rect.left && event.clientX <= rect.right &&
+                                    event.clientY >= rect.top && event.clientY <= rect.bottom) {
+                                    // A imagem clonada foi solta sobre esta célula
+                                    cell.classList.add('occupied'); // Adiciona a classe 'occupied' para mudar a cor
+                                    dropped = true;
+                                }
+                            });
+            
+                            clone.remove();
+   
+                        }, { once: true }); // Use { once: true } para garantir que o evento seja removido após ser acionado
+                    });
+            
+                    image.ondragstart = function() {
+                        return false;
+                    };
+                });
+            });
+            </script>
+    </body>
+</html>
